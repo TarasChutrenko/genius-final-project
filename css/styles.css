@@ -1,0 +1,121 @@
+/* Base */
+@font-face {
+  font-display: swap;
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rowdies-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-mono-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-mono-v23-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/roboto-mono-v23-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-mono-v23-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --color-brand-main: #ff9f0e;
+  --color-primary-light: #ffffff;
+  --color-primary-dark: #181817;
+  --color-brand-secondary: #fcb62a;
+  --color-secondary-light: #fffaf3;
+  --color-secondary-gray: #f1f3ff;
+  --color-secodary-darkgray: #839aa9;
+  --color-secondary-lightgray: #f9f9ff;
+  --color-secondary-violet: #d9a6ff;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-primary-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+/* Button */
+
+.button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-main);
+}
+
+.button:hover {
+  font-weight: 600;
+  background-color: var(--color-brand-secondary);
+}
+
+/* Hero section */
+.hero-title {
+  font-family: 'Rowdies', sans-serif;
+  font-size: 72px;
+  line-height: 1.25;
+}
+
+.main-title {
+  font-family: 'Rowdies', sans-serif;
+  font-size: 56px;
+  line-height: 1.25;
+}
+
+.link {
+  color: var(--color-primary-dark);
+  font-weight: 400;
+}
+
+.link:hover {
+  color: var(--color-brand-main);
+  font-weight: 700;
+}
+/* Customers section */
+.customers-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.customers-list {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Servises section */
+.services-item {
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-brand-main);
+}
+/* 
+Help section */
+.help-item {
+  font-size: 18px;
+  line-height: 1.3;
+}
